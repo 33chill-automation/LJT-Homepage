@@ -25,27 +25,10 @@ baseurl: "/LJT-Homepage"
 
 # Build settings
 markdown: kramdown
-theme: minimal_mistakes
-gems:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-twitter-plugin
-  - jemoji
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-twitter-plugin
-  - jemoji
 
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title/
@@ -56,16 +39,12 @@ collections:
     output: true
   publications:
     output: true
-    permalink: /:collection/:name/
   talks:
     output: true
-    permalink: /:collection/:name/
   teaching:
     output: true
-    permalink: /:collection/:name/
   portfolio:
     output: true
-    permalink: /:collection/:name/
 
 # Author settings
 author:
@@ -101,10 +80,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor/bundle/
-
-# Feed settings
-feed:
-  path: "feed/index.xml"
 
 # Other settings
 include:
